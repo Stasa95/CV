@@ -1,0 +1,332 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    padding: 12% 3% 1%;
+    margin: 0;
+    font-family: 'Allura', cursive;
+    font-size: 10rem;
+}
+
+h3 {
+    padding: 0 5% 10%;
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 3%;
+    color: #ea507c;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h5 {
+    padding: 3% 0 2%;
+    font-weight: bold; 
+}
+
+h6 {
+    padding: 2%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+}
+
+span {
+    line-height: 2;
+}
+
+hr {
+    padding-top: 2%;
+    border-style: none none dotted;
+    border-width: 10px;
+    border-color: #ACE1F4;
+    opacity: 0.3;
+    width: 10%;
+}
+
+/* Title */
+
+.btn {
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 20px;
+        font-family: 'Montserrat-Bold', sans-serif;
+        color: #ffffff;
+        font-size: 2rem;
+        padding: 10px 40px;
+        border: solid #ffffff 2px;
+        text-decoration: none;
+        margin-bottom: 3%;
+      }
+      
+.btn:hover {
+        background: #e0e5e8;
+        text-decoration: none;
+      }
+
+.title-img {
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: -2;
+    margin: 0;
+    width: 100%;
+}      
+
+.title-img1 {
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: -1;
+    margin: 0;
+    width: 100%;
+} 
+
+.navbar {
+    padding: 0.5% 20% 0;
+    background-color: rgba(157, 190, 185, 0.1)
+    
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Allura', cursive;
+    font-size: 2rem;
+}
+
+.logo-img {
+    height: 3rem;
+}
+
+#title {
+    color: #fff;
+    text-align: center;
+    padding: 0 0 7%;
+    }
+
+/* About me */
+
+.hole {
+    height: 10%;
+    text-align: center;
+}
+
+.hole-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#education, #contact {
+    background-color: #f3f3f3;
+    padding: 3% 25% 1%;
+}
+
+#about-me, #experience {
+    background-color: #f3f3f3;
+    padding: 3% 30% 1%;
+}
+
+#about-me {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#experience {
+    padding-bottom: 5%;
+}
+
+#contact {
+    padding: 3% 30% 5%;
+}
+
+.icon {
+    padding-right: 3%;
+    padding-top: 4%;
+    float: left;
+    width: 20%;
+}
+
+.icon-right {
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    float: right;
+    width: 20%;
+}
+
+#right {
+    text-align: right;
+}
+
+.box {
+    padding: 5%;
+    text-align: center;
+}
+
+.icon-small {
+    padding-bottom: 5%;
+    width: 50%;
+}
+
+.fa {
+    padding-right: 5%;
+}
+
+.hrline {
+    background-color: #fff;
+    padding: 1px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #036884;
+}
+
+.carousel-inner {
+    padding: 3% 25%;
+    text-align: center;
+    color: #fff;
+}
+
+.picture {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.portfolio-capt {
+    padding-bottom: 1%;
+}
+
+/* Contact */
+
+#contact-info {
+    text-align: left;
+    padding-top: 10%;
+}
+
+.btne {
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #036884;
+    font-size: 2rem;
+    padding: 10px 40px;
+    border: solid #036884 2px;
+    text-decoration: none;
+    margin-top: 10%;
+  }
+  
+.btne:hover {
+    background: #ACE1F4;
+    text-decoration: none;
+  }
+
+.link {
+    color: #000;
+    text-decoration: none;
+  }
+
+.link:hover {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+#contact-id {
+    width: 50%;
+}
+
+/* Footer   */
+
+#pre-footer {
+    background-color: #f3f3f3;
+    text-align: right;
+    padding: 0 5% 1%;
+    margin-bottom: 0;
+}
+
+#footer {
+    padding: 1%;
+    background-color: #036884;
+    color: #fff;
+    text-align: center;
+}
+
+/* Optimisation */
+
+@media (max-width: 1440px) {
+    h1 {
+        padding-top: 6%;
+    }
+    h3 {
+        padding-bottom: 5%;
+        font-size: 1.5rem;
+    }
+    .btn {
+        font-size: 2rem;
+        padding: 10px 30px;
+        border-radius: 25px;
+        margin-bottom: -2%;
+    }
+    #about-me, #experience, #education, #portfolio, #contact {
+        padding: 5% 10%;
+    }
+    .navbar {
+        padding: 0.5% 10% 0;
+    }
+    .hole {
+        height: 150px;
+    }
+    .hole-img {
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1028px) {
+    /* .title-img1 {
+        width: 125%;
+        object-fit: cover;
+    } */
+    h1 {
+        font-size: 6rem;
+        padding-top: 6%;
+    }
+    h3 {
+        font-size: 1rem;
+        padding-bottom: 5%;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 5px 20px;
+        border-radius: 15px;
+    }
+    .navbar {
+        padding: 0.5% 10% 0;
+    }
+    #contact-info {
+        text-align: center;
+    }
+    
+    .icon {
+        width: 45%;
+    }
+    .icon-right {
+        width: 45%;
+    }
+}
