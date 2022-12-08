@@ -271,8 +271,11 @@ span {
         border-radius: 25px;
         margin-bottom: -2%;
     }
-    #about-me, #education, #portfolio, #contact {
+    #about-me, #education, #contact {
         padding: 8% 10%;
+    }
+    #prefooter {
+        padding-top: 3%;
     }
     #experience {
         padding: 8% 10% 10%;
@@ -312,6 +315,13 @@ span {
     }
     span {
         font-size: 1.5rem;
+    }
+    .carousel-inner {
+        padding: 3% 10%;
+    }
+    .nav-link {
+        font-size: 1.5rem;
+        line-height: 2;
     }
 }
 
