@@ -45,14 +45,6 @@ span {
     line-height: 2;
 }
 
-hr {
-    padding-top: 2%;
-    border-style: none none dotted;
-    border-width: 10px;
-    border-color: #ACE1F4;
-    opacity: 0.3;
-    width: 10%;
-}
 
 /* Title */
 
@@ -186,11 +178,6 @@ hr {
     padding-right: 5%;
 }
 
-.hrline {
-    background-color: #fff;
-    padding: 1px;
-}
-
 /* Portfolio */
 
 #portfolio {
@@ -284,17 +271,47 @@ hr {
         border-radius: 25px;
         margin-bottom: -2%;
     }
-    #about-me, #experience, #education, #portfolio, #contact {
-        padding: 5% 10%;
+    #about-me, #education, #portfolio, #contact {
+        padding: 8% 10%;
+    }
+    #experience {
+        padding: 8% 10% 10%;
+    }
+    #contact-id {
+        width: 100%;
+    }
+    #contact-info {
+        margin-top: 8%;
     }
     .navbar {
         padding: 0.5% 10% 0;
     }
     .hole {
-        height: 150px;
+        height: 250px;
+        margin-top: -5px;
+        margin-bottom: -5px;
     }
     .hole-img {
         object-fit: cover;
+    }
+    h3 {
+        font-size: 1.5rem;
+        padding-bottom: 5%;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    h5 {
+        font-size: 2rem;
+    }
+    h6 {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    span {
+        font-size: 1.5rem;
     }
 }
 
@@ -306,10 +323,6 @@ hr {
     h1 {
         font-size: 6rem;
         padding-top: 6%;
-    }
-    h3 {
-        font-size: 1rem;
-        padding-bottom: 5%;
     }
     .btn {
         font-size: 1rem;
